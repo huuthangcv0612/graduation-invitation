@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1c1c1c"/>
+      <stop offset="50%" stop-color="#2a2825"/>
+      <stop offset="100%" stop-color="#111111"/>
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#c5a059"/>
+      <stop offset="50%" stop-color="#f4e8c1"/>
+      <stop offset="100%" stop-color="#9a7b38"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="800" fill="url(#bgGrad)"/>
+  
+  <!-- Outer Frame -->
+  <rect x="30" y="30" width="540" height="740" fill="none" stroke="url(#goldGrad)" stroke-width="1.5" opacity="0.6"/>
+  <rect x="42" y="42" width="516" height="716" fill="none" stroke="url(#goldGrad)" stroke-width="0.5" opacity="0.4"/>
+  
+  <!-- Geometric Patterns -->
+  <circle cx="300" cy="340" r="180" fill="none" stroke="url(#goldGrad)" stroke-width="1" opacity="0.2"/>
+  
+  <!-- Silhouette / Graduation Motif -->
+  <!-- Mortarboard Cap -->
+  <path d="M300 240 L440 280 L300 320 L160 280 Z" fill="url(#goldGrad)"/>
+  <rect x="290" y="310" width="20" height="40" rx="3" fill="url(#goldGrad)"/>
+  <path d="M420 285 L420 360 L410 380 L400 360 L420 360" fill="url(#goldGrad)"/>
+  
+  <!-- Person Silhouette -->
+  <path d="M240 440 C240 400 260 370 300 370 C340 370 360 400 360 440 C360 500 390 560 450 600 L150 600 C210 560 240 500 240 440 Z" fill="#2d2a24" stroke="url(#goldGrad)" stroke-width="1"/>
+  
+  <!-- Text Overlay -->
+  <text x="300" y="660" font-family="'Cormorant Garamond', Georgia, serif" font-size="32" font-weight="600" fill="url(#goldGrad)" text-anchor="middle" letter-spacing="4">NGUYỄN HỮU THẮNG</text>
+  <text x="300" y="700" font-family="'Plus Jakarta Sans', sans-serif" font-size="14" fill="#e8e2d5" text-anchor="middle" letter-spacing="3" opacity="0.8">KỸ SƯ CÔNG NGHỆ PHẦN MỀM</text>
+  <text x="300" y="730" font-family="'Cormorant Garamond', Georgia, serif" font-size="18" font-style="italic" fill="#c5a059" text-anchor="middle">HUCE · 2026</text>
+</svg>

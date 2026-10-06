@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="100%" height="100%">
+  <rect width="600" height="600" fill="#181818"/>
+  <rect x="20" y="20" width="560" height="560" fill="none" stroke="#c5a059" stroke-width="1" opacity="0.3"/>
+  <!-- HUCE Building H1 Silhouette -->
+  <g fill="none" stroke="#c5a059" stroke-width="2" opacity="0.8">
+    <rect x="150" y="200" width="300" height="240" rx="4"/>
+    <line x1="150" y1="260" x2="450" y2="260"/>
+    <line x1="150" y1="320" x2="450" y2="320"/>
+    <line x1="150" y1="380" x2="450" y2="380"/>
+    <!-- Windows -->
+    <rect x="180" y="220" width="30" height="25" fill="#c5a059" opacity="0.3"/>
+    <rect x="230" y="220" width="30" height="25" fill="#c5a059" opacity="0.3"/>
+    <rect x="285" y="210" width="30" height="35" fill="#f4e8c1" opacity="0.6"/>
+    <rect x="340" y="220" width="30" height="25" fill="#c5a059" opacity="0.3"/>
+    <rect x="390" y="220" width="30" height="25" fill="#c5a059" opacity="0.3"/>
+  </g>
+  <text x="300" y="490" font-family="'Cormorant Garamond', serif" font-size="28" font-weight="600" fill="#f4e8c1" text-anchor="middle">GIẢNG ĐƯỜNG HUCE - TÒA H1</text>
+  <text x="300" y="525" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" fill="#c5a059" text-anchor="middle" letter-spacing="2">HANOI UNIVERSITY OF CIVIL ENGINEERING</text>
+</svg>
